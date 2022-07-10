@@ -1,0 +1,31 @@
+.social{
+    font-size: small;
+    letter-spacing: 3px;
+    color: #374151;
+}
+.fb{
+    color: #2563eb;
+}
+.twitter{
+    color: #0ea5e9;
+}
+.github{
+    color: #4b5563;
+}
+.linked-in{
+    color: #1d4ed8;
+}
+.fb:hover, .twitter:hover, .linked-in:hover, .github:hover{
+    color: #1f2937;
+}
+.contact-animation{
+    animation: contact-animation 1s;
+}
+@keyframes contact-animation {
+    0%{
+        transform: scale(0, 0.025);
+    }
+    50%{
+        transform: scale(1, 0.025);
+    }
+}
